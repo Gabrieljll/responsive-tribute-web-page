@@ -9,7 +9,7 @@ body {
 
 #main {
     border-radius: 5px;
-    background: linear-gradient(90deg, #4c4253 20%, #6d567e 80%);
+    background: white;
     height: -webkit-fill-available;
 }
 
@@ -51,19 +51,52 @@ main {
 
 .static-navbar {
     display: flex;
-    background: linear-gradient(90deg, #2d1b3b 50%, #482262 80%);
+    background: linear-gradient(90deg, #020202 50%, #504a54 80%);
     width: 100%;
     position: fixed;
     z-index: 10;
+    top: 0;
 }
 
 .static-navbar h1 {
     font-size: 3vw;
 }
 
+#divPrincipalSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #principalSection {
     display: flex;
     align-items: center;
+    margin-top: 150px;
+    background: linear-gradient(90deg, #421818 50%, #070404 80%);
+    width: 90%;
+    border-radius: 80px 80px 80px 80px;
+    border-top: 10px solid rgb(141, 141, 141);
+    border-bottom: 10px solid rgb(141, 141, 141);
+}
+
+.divInviteToReadSection {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-top: 10px solid rgb(141, 141, 141);
+    border-bottom: 10px solid rgb(141, 141, 141);
+}
+
+.inviteToReadSection {
+    background: linear-gradient(90deg, #421818 50%, #070404 80%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -542,13 +575,27 @@ ul {
     }
 }
 
+.divTittleSlider {
+    width: 100%;
+    background: linear-gradient(90deg, #421818 50%, #070404 80%);
+    border-top: 10px solid rgb(141, 141, 141);
+}
+
+.divTittleSlider h3 {
+    font-size: 50px !important;
+    padding-top: 50px;
+    margin: 0 !important;
+}
+
 .slider-container {
     display: flex;
     justify-content: center;
+    background: linear-gradient(90deg, #421818 50%, #070404 80%);
+    border-bottom: 10px solid rgb(141, 141, 141);
 }
 
 .slider {
-    width: 100%;
+    width: 50%;
     height: 800px;
     overflow: hidden;
     margin-top: 5%;
