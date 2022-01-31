@@ -56,6 +56,7 @@ main {
     position: fixed;
     z-index: 10;
     top: 0;
+    border-bottom: 3px solid rgb(141, 141, 141);
 }
 
 .static-navbar h1 {
@@ -73,10 +74,9 @@ main {
     align-items: center;
     margin-top: 150px;
     background: linear-gradient(90deg, #421818 50%, #070404 80%);
-    width: 90%;
+    width: 96%;
     border-radius: 80px 80px 80px 80px;
-    border-top: 10px solid rgb(141, 141, 141);
-    border-bottom: 10px solid rgb(141, 141, 141);
+    border: 3px solid rgb(141, 141, 141);
 }
 
 .divInviteToReadSection {
@@ -85,8 +85,9 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    border-top: 10px solid rgb(141, 141, 141);
-    border-bottom: 10px solid rgb(141, 141, 141);
+    border-top: 8px solid rgb(141, 141, 141);
+    border-bottom: 8px solid rgb(141, 141, 141);
+    margin-top: 250px;
 }
 
 .inviteToReadSection {
@@ -123,6 +124,47 @@ h3 {
     font-weight: bold;
     color: white;
     margin: 0;
+}
+
+.h3Wiki {
+    color: black;
+}
+
+#tribute-info p {
+    color: black;
+    font-size: 25px;
+    padding: 0 100px 0 100px;
+}
+
+#tribute-info h3 {
+    color: black;
+}
+
+#divInformationSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+}
+
+#divInformationSection div {
+    position: absolute;
+    display: none;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    width: 100%;
+    text-align: start;
+}
+
+.divBtninfoSection {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-inline-start: 0 !important;
 }
 
 p {
@@ -238,13 +280,13 @@ img {
 }
 
 #img-caption h3 {
-    margin: 15px 0 5px 20px;
+    margin: 15px 0 5px 70px;
     color: white;
     order: 1;
 }
 
 #img-caption p {
-    margin: 15px 0 5px 20px;
+    margin: 15px 0 5px 70px;
     color: white;
     order: 1;
 }
@@ -260,6 +302,7 @@ figcaption {
     background: linear-gradient(90deg, #421818 50%, #070404 80%);
     /* the border will curve into a 'D' */
     border-radius: 10px 80px 80px 10px;
+    border: 3px solid rgb(141, 141, 141);
 }
 
 .first-info-section {
@@ -309,6 +352,7 @@ figcaption {
     background: linear-gradient(90deg, #421818 50%, #070404 80%);
     /* the border will curve into a 'D' */
     border-radius: 80px 10px 10px 80px;
+    border: 3px solid rgb(141, 141, 141);
 }
 
 .second-info-section {
@@ -397,10 +441,11 @@ ul {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
-    color: white;
+    color: black;
 }
 
 #tribute-info ul {
+    position: absolute;
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -578,12 +623,11 @@ ul {
 .divTittleSlider {
     width: 100%;
     background: linear-gradient(90deg, #421818 50%, #070404 80%);
-    border-top: 10px solid rgb(141, 141, 141);
+    border-top: 8px solid rgb(141, 141, 141);
 }
 
 .divTittleSlider h3 {
     font-size: 50px !important;
-    padding-top: 50px;
     margin: 0 !important;
 }
 
@@ -591,14 +635,13 @@ ul {
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg, #421818 50%, #070404 80%);
-    border-bottom: 10px solid rgb(141, 141, 141);
+    border-bottom: 8px solid rgb(141, 141, 141);
 }
 
 .slider {
     width: 50%;
-    height: 800px;
+    height: 720px;
     overflow: hidden;
-    margin-top: 5%;
 }
 
 .slides {
@@ -706,5 +749,5 @@ ul {
 }
 
 #tribute-link {
-    color: navajowhite;
+    color: #16305e;
 }

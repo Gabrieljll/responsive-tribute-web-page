@@ -27,6 +27,11 @@
             </div>
         </header>
 
+        <div id="divInviteToReadSection" class="divInviteToReadSection">
+            <div id="inviteToReadSection" class="inviteToReadSection">
+                <h1>let's see a little of the history of michael... <i class="fas fa-hand-point-down"></i></h1>
+            </div>
+        </div>
         <div id="divPrincipalSection">
             <div id="principalSection">
 
@@ -37,11 +42,6 @@
                 <figure id="img-div">
                     <img class="img-fadein" id="principalImage" src="resources/images/6.jpg" alt="Michael Jackson´s image">
                 </figure>
-            </div>
-        </div>
-        <div id="divInviteToReadSection" class="divInviteToReadSection">
-            <div id="inviteToReadSection" class="inviteToReadSection">
-                <h1>let's see a little of the history of michael...</h1>
             </div>
         </div>
         <div id="first-info-section" class="first-info-section">
@@ -136,73 +136,67 @@
         </div>
 
 
-
-
-        <div class="swiper-container mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="resources/images/10.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/11.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/13.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/14.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/15.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/16.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/17.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/18.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/19.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="resources/images/20.jpg" alt="">
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-
-
         <section id="tribute-info">
             <h3 id="headline">Here is a time line of Michael life:</h3>
-            <ul>
-                <li><strong>August 29, 1958</strong> - Michael Joseph Jackson was born in Gary, Indiana. He is the seventh of nine children.</li>
-                <li><strong>1963</strong> - After several years of training, the Jackson 5 begin to perform in public.</li>
-                <li><strong>December 14, 1969</strong> - The Jackson 5 appear on "The Ed Sullivan Show."</li>
-                <li><strong>1970</strong> - Her first album, "Diana Ross Presents the Jackson 5," includes the hits "I Want You Back" and "I'll Be There," which became number one.</li>
-                <li><strong>1972</strong> - While still singing with The Jackson 5, Michael Jackson achieves his first solo album, "Got to Be There."</li>
-                <li><strong>1979</strong> - Jackson's first adult album, "Off the Wall", is released. He becomes the first solo artist to place four singles on the top 10 chart.</li>
-                <li><strong>1982</strong> - His album "Thriller" wins a record eight Grammy Awards and becomes the best-selling album of all time. In addition to the single "Thriller", it contains the songs "Billie Jean" and "Beat It."</li>
-                <li><strong>1984</strong> - During the taping of a Pepsi-Cola commercial, Jackson suffers burns to his hair when his hair explodes in flames from an explosion.</li>
-                <li><strong>1985</strong> - Jackson and Lionel Richie write what will become one of the best-selling singles in no time: "We Are the World." The song was produced to raise money for famine victims in Ethiopia. Jackson also pays $ 47.5 million
-                    for the rights to more than 250 songs written by John Lennon and Paul McCartney.</li>
-                <li><strong>1987</strong> - His album "Bad" produces five number one singles and sells at least 22 million copies worldwide.</li>
-                <li><strong>1993</strong> - Jackson reveals during a television interview that he inherited a disease that causes the pigmentation of his skin to disappear. He is also accused of sexually harassing a boy who often stayed at his mansion. The
-                    singer denies any type of abuse, reaches an agreement of allegedly 20 million dollars with the boy's family. No charges are ever brought against him.</li>
-                <li><strong>1994</strong> - Jackson marries Lisa Marie Presley in the Dominican Republic. They divorce two years later.</li>
-                <li><strong>1995</strong> - Releases the album "HIStory: Past, Present, and Future Book I." In August the song "You Are Not Alone" became the first single from pop music to hit the Billboard chart as a number.</li>
-                <li><strong>2002</strong>- Jackson shows his first son, Prince Michael II, when he is just a baby, from the balcony of a Berlin hotel to the thousands of admirers who watch from the street.</li>
-                <li><strong>2005</strong>- A judge finds Jackson not guilty of sexually harassing a 13-year-old cancer survivor at his Neverland mansion in 2003. He had been accused of getting him drunk and fondling, as well as behaving strangely and inappropriately
-                    with other children.</li>
-                <li><strong>2006</strong>- Plagued with financial problems since his trial, Jackson closes a 2,600-acre Neverland ranch home, laying off most of his employees after paying thousands of dollars in back wages to avoid a lawsuit by department
-                    officials. of work.</li>
-                <li><strong>June 25, 2009</strong> - Jackson dies at age 50, apparently of heart failure.</li>
-            </ul>
-
+            <div id="divInformationSection">
+                <div class="infoSection" id="firstInformationSection" style="display:inline-grid;justify-content:center;">
+                    <div class="divBtninfoSection">
+                        <button id="btn-secondInformationSection" onclick="changeInformationSection(this)">next</button>
+                    </div>
+                    <p><strong>August 29, 1958</strong> - Michael Joseph Jackson was born in Gary, Indiana. He is the seventh of nine children.</p>
+                    <p><strong>1963</strong> - After several years of training, the Jackson 5 begin to perform in public.</p>
+                    <p><strong>December 14, 1969</strong> - The Jackson 5 appear on "The Ed Sullivan Show."</p>
+                </div>
+                <div class="infoSection" id="secondInformationSection">
+                    <div class="divBtninfoSection">
+                        <button id="btn-firstInformationSection" onclick="changeInformationSection(this)">previous</button>
+                        <button id="btn-thirdInformationSection" onclick="changeInformationSection(this)">next</button>
+                    </div>
+                    <p><strong>1970</strong> - Her first album, "Diana Ross Presents the Jackson 5," includes the hits "I Want You Back" and "I'll Be There," which became number one.</p>
+                    <p><strong>1972</strong> - While still singing with The Jackson 5, Michael Jackson achieves his first solo album, "Got to Be There."</p>
+                    <p><strong>1979</strong> - Jackson's first adult album, "Off the Wall", is released. He becomes the first solo artist to place four singles on the top 10 chart.</p>
+                </div>
+                <div class="infoSection" id="thirdInformationSection">
+                    <div class="divBtninfoSection">
+                        <button id="btn-secondInformationSection" onclick="changeInformationSection(this)">previous</button>
+                        <button id="btn-fourthInformationSection" onclick="changeInformationSection(this)">next</button>
+                    </div>
+                    <p><strong>1982</strong> - His album "Thriller" wins a record eight Grammy Awards and becomes the best-selling album of all time. In addition to the single "Thriller", it contains the songs "Billie Jean" and "Beat It."</p>
+                    <p><strong>1984</strong> - During the taping of a Pepsi-Cola commercial, Jackson suffers burns to his hair when his hair explodes in flames from an explosion.</p>
+                    <p><strong>1985</strong> - Jackson and Lionel Richie write what will become one of the best-selling singles in no time: "We Are the World." The song was produced to raise money for famine victims in Ethiopia. Jackson also pays $ 47.5
+                        million for the rights to more than 250 songs written by John Lennon and Paul McCartney.</p>
+                </div>
+                <div class="infoSection" id="fourthInformationSection">
+                    <div class="divBtninfoSection">
+                        <button id="btn-thirdInformationSection" onclick="changeInformationSection(this)">previous</button>
+                        <button id="btn-fifthInformationSection" onclick="changeInformationSection(this)">next</button>
+                    </div>
+                    <p><strong>1987</strong> - His album "Bad" produces five number one singles and sells at least 22 million copies worldwide.</p>
+                    <p><strong>1993</strong> - Jackson reveals during a television interview that he inherited a disease that causes the pigmentation of his skin to disappear. He is also accused of sexually harassing a boy who often stayed at his mansion.
+                        The singer denies any type of abuse, reaches an agreement of allegedly 20 million dollars with the boy's family. No charges are ever brought against him.</p>
+                    <p><strong>1994</strong> - Jackson marries Lisa Marie Presley in the Dominican Republic. They divorce two years later.</p>
+                </div>
+                <div class="infoSection" id="fifthInformationSection">
+                    <div class="divBtninfoSection">
+                        <button id="btn-fourthInformationSection" onclick="changeInformationSection(this)">previous</button>
+                        <button id="btn-sixthInformationSection" onclick="changeInformationSection(this)">next</button>
+                    </div>
+                    <p><strong>1995</strong> - Releases the album "HIStory: Past, Present, and Future Book I." In August the song "You Are Not Alone" became the first single from pop music to hit the Billboard chart as a number.</p>
+                    <p><strong>2002</strong>- Jackson shows his first son, Prince Michael II, when he is just a baby, from the balcony of a Berlin hotel to the thousands of admirers who watch from the street.</p>
+                    <p><strong>2005</strong>- A judge finds Jackson not guilty of sexually harassing a 13-year-old cancer survivor at his Neverland mansion in 2003. He had been accused of getting him drunk and fondling, as well as behaving strangely and
+                        inappropriately with other children.</p>
+                </div>
+                <div class="infoSection" id="sixthInformationSection">
+                    <div class="divBtninfoSection">
+                        <button id="btn-fifthInformationSection" onclick="changeInformationSection(this)">previous</button>
+                    </div>
+                    <p><strong>2006</strong>- Plagued with financial problems since his trial, Jackson closes a 2,600-acre Neverland ranch home, laying off most of his employees after paying thousands of dollars in back wages to avoid a lawsuit by department
+                        officials. of work.</p>
+                    <p><strong>June 25, 2009</strong> - Jackson dies at age 50, apparently of heart failure.</p>
+                </div>
+            </div>
         </section>
-        <h3> If you have time, you should read more about Michael on his
+        <h3 class="h3Wiki"> If you have time, you should read more about Michael on his
             <a id="tribute-link" href="https://es.wikipedia.org/wiki/Michael_Jackson" target="_blank">Wikipedia entry</a>
         </h3>
     </main>
