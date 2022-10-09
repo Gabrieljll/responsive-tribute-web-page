@@ -141,7 +141,7 @@
             <div id="divInformationSection">
                 <div class="infoSection" id="firstInformationSection" style="display:inline-grid;justify-content:center;">
                     <div class="divBtninfoSection">
-                        <button id="btn-secondInformationSection" onclick="changeInformationSection(this)">next</button>
+                        <button class="next square" id="btn-secondInformationSection" onclick="changeInformationSection(this)"><p>&#8250;</p></button>
                     </div>
                     <p><strong>August 29, 1958</strong> - Michael Joseph Jackson was born in Gary, Indiana. He is the seventh of nine children.</p>
                     <p><strong>1963</strong> - After several years of training, the Jackson 5 begin to perform in public.</p>
@@ -149,8 +149,8 @@
                 </div>
                 <div class="infoSection" id="secondInformationSection">
                     <div class="divBtninfoSection">
-                        <button id="btn-firstInformationSection" onclick="changeInformationSection(this)">previous</button>
-                        <button id="btn-thirdInformationSection" onclick="changeInformationSection(this)">next</button>
+                        <button class="previous square" id="btn-firstInformationSection" onclick="changeInformationSection(this)"><p>&#8249;</p></button>
+                        <button class="next square" id="btn-thirdInformationSection" onclick="changeInformationSection(this)"><p>&#8250;</p></button>
                     </div>
                     <p><strong>1970</strong> - Her first album, "Diana Ross Presents the Jackson 5," includes the hits "I Want You Back" and "I'll Be There," which became number one.</p>
                     <p><strong>1972</strong> - While still singing with The Jackson 5, Michael Jackson achieves his first solo album, "Got to Be There."</p>
@@ -158,8 +158,8 @@
                 </div>
                 <div class="infoSection" id="thirdInformationSection">
                     <div class="divBtninfoSection">
-                        <button id="btn-secondInformationSection" onclick="changeInformationSection(this)">previous</button>
-                        <button id="btn-fourthInformationSection" onclick="changeInformationSection(this)">next</button>
+                        <button class="previous square" id="btn-secondInformationSection" onclick="changeInformationSection(this)"><p>&#8249;</p></button>
+                        <button class="next square" id="btn-fourthInformationSection" onclick="changeInformationSection(this)"><p>&#8250;</p></button>
                     </div>
                     <p><strong>1982</strong> - His album "Thriller" wins a record eight Grammy Awards and becomes the best-selling album of all time. In addition to the single "Thriller", it contains the songs "Billie Jean" and "Beat It."</p>
                     <p><strong>1984</strong> - During the taping of a Pepsi-Cola commercial, Jackson suffers burns to his hair when his hair explodes in flames from an explosion.</p>
@@ -168,8 +168,8 @@
                 </div>
                 <div class="infoSection" id="fourthInformationSection">
                     <div class="divBtninfoSection">
-                        <button id="btn-thirdInformationSection" onclick="changeInformationSection(this)">previous</button>
-                        <button id="btn-fifthInformationSection" onclick="changeInformationSection(this)">next</button>
+                        <button class="previous square" id="btn-thirdInformationSection" onclick="changeInformationSection(this)"><p>&#8249;</p></button>
+                        <button class="next square" id="btn-fifthInformationSection" onclick="changeInformationSection(this)"><p>&#8250;</p></button>
                     </div>
                     <p><strong>1987</strong> - His album "Bad" produces five number one singles and sells at least 22 million copies worldwide.</p>
                     <p><strong>1993</strong> - Jackson reveals during a television interview that he inherited a disease that causes the pigmentation of his skin to disappear. He is also accused of sexually harassing a boy who often stayed at his mansion.
@@ -178,8 +178,8 @@
                 </div>
                 <div class="infoSection" id="fifthInformationSection">
                     <div class="divBtninfoSection">
-                        <button id="btn-fourthInformationSection" onclick="changeInformationSection(this)">previous</button>
-                        <button id="btn-sixthInformationSection" onclick="changeInformationSection(this)">next</button>
+                        <button class="previous square" id="btn-fourthInformationSection" onclick="changeInformationSection(this)"><p>&#8249;</p></button>
+                        <button class="next square" id="btn-sixthInformationSection" onclick="changeInformationSection(this)"><p>&#8250;</p></button>
                     </div>
                     <p><strong>1995</strong> - Releases the album "HIStory: Past, Present, and Future Book I." In August the song "You Are Not Alone" became the first single from pop music to hit the Billboard chart as a number.</p>
                     <p><strong>2002</strong>- Jackson shows his first son, Prince Michael II, when he is just a baby, from the balcony of a Berlin hotel to the thousands of admirers who watch from the street.</p>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="infoSection" id="sixthInformationSection">
                     <div class="divBtninfoSection">
-                        <button id="btn-fifthInformationSection" onclick="changeInformationSection(this)">previous</button>
+                        <button class="previous square" id="btn-fifthInformationSection" onclick="changeInformationSection(this)"><p>&#8249;</p></button>
                     </div>
                     <p><strong>2006</strong>- Plagued with financial problems since his trial, Jackson closes a 2,600-acre Neverland ranch home, laying off most of his employees after paying thousands of dollars in back wages to avoid a lawsuit by department
                         officials. of work.</p>
@@ -196,9 +196,11 @@
                 </div>
             </div>
         </section>
-        <h3 class="h3Wiki"> If you have time, you should read more about Michael on his
-            <a id="tribute-link" href="https://es.wikipedia.org/wiki/Michael_Jackson" target="_blank">Wikipedia entry</a>
-        </h3>
+        <div class="divWiki">
+            <h3 class="h3Wiki"> If you have time, you should read more about Michael on his
+                <a id="tribute-link" href="https://es.wikipedia.org/wiki/Michael_Jackson" target="_blank">Wikipedia entry</a>
+            </h3>
+        </div>
     </main>
 </body>
 <script src="js/jquery.js"></script>
